@@ -26,8 +26,8 @@ export default function Banner({chatHistory}:{chatHistory: any}) {
       }}
     />
     <Image
-      src="/sika-logo.png"
-      width={100}
+      src="/holcim-logo.svg"
+      width={250}
       height={45}
       alt="Acervo del cemento y del concreto - Instituto Mexicano del Cemento y del Concreto A.C."
       style={{
