@@ -38,7 +38,7 @@ export default function Banner({chatHistory}:{chatHistory: any}) {
         right: '10px',
       }}
     />
-    <h2 className='text-center font-light text-gray-500 text-2xl mt-3'>ASISTENTE CONCRETON IMCYC | SIKA</h2>
+    <h2 className='text-center font-light text-gray-500 text-2xl mt-3'>ASISTENTE CONCRETON IMCYC | HOLCIM</h2>
     <p className='text-gray-300 text-sm text-center font-light'>Asistente en tecnología del Concreto y del Cemento</p>
   </span>;
 }
