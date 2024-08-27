@@ -37,7 +37,7 @@ export default function ChatContainer({ chatHistory }: ChatContainerProps) {
 
   return (
     <>
-    <title>SIKA MÉXICO GPT</title>
+    <title>HOLCIM MÉXICO GPT</title>
     <meta name="description" content="Page description" />
     <div className="max-h-0">
       {chatHistory.map((message, messageIndex) => (
