@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define the keyframes for the cursor animation */
+@keyframes flicker {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.cursor {
+  display: inline-block;
+  width: 1ch;
+  animation: flicker 0.5s infinite;
+  margin-bottom: 4px;
+}
+
+.alertButton:hover {
+  background-color: initial;
+  color: initial;
+  text-decoration: initial;
+}
+
+.chat-bubble h2 {
+  font-weight: bold !important;
+  font-size: 2rem !important;
+  color: #e71d26 !important
+}
+
+.chat-bubble h3 {
+  font-weight: bold !important;
+  font-size: 2rem !important;
+  color: #faae0e !important
+}
+
+.chat-bubble h4 {
+  font-weight: bold !important;
+  font-size: 1.5rem !important;
+  padding: 0 !important;
+  color: #faae0e !important;
+}
+
+.chat-bubble a {
+  color: #e71d26 !important;
+  font-weight: bold !important;
+  text-decoration: underline;
+}
+
+.loading-spinner {
+  --loading-spinner-color: #ffffff; /* change thecolor to your desired value */
+}
